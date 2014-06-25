@@ -1,0 +1,20 @@
+{
+  "name": "glotpress2json",
+  "version": "0.1.0",
+  "description": "Retrieve PO file from GlotPress as JavaScript object representation of locale strings",
+  "main": "glotpress2json.js",
+  "author": "Andrew Duthie <andrew@andrewduthie.com>",
+  "main": "glotpress2json.js",
+  "bin": {
+    "glotpress2json": "./bin/glotpress2json.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aduth/glotpress2json"
+  },
+  "dependencies": {
+    "commander": "^2.2.0",
+    "po2json": "^0.2.3",
+    "request": "^2.36.0"
+  }
+}
